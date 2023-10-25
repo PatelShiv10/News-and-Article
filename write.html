@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./writestyle.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Write</title>
+    <link rel="icon" href="./Logo.png" />
+</head>
+<body>
+    <header>
+        <div class="navigation-container">
+            <div class="top-head">
+                <div class="web-name">
+                    <h1 style="font-family: 'Lobster', sans-serif;">InfoDaily</h1>
+                </div>
+
+                <div class="ham-btn">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <div class="times-btn">
+                    <span>
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="nav-bar" id="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html" target="_blank">Home</a></li>
+                        <li><a href="#">News <i style="margin-left: 3px;" class="fa-solid fa-caret-down"></i>
+                            <ul class="dropdown">
+                                <li><a href="./generalNews.html" target="_blank">General</a></li>
+                                <li><a href="./Business.html" target="_blank">Business</a></li>
+                                <li><a href="./Sports.html" target="_blank">Sports</a></li>
+                                <li><a href="./Technology.html" target="_blank">Technology</a></li>
+                                <li><a href="./Entertainment.html" target="_blank">Entertainment</a></li>
+                            </ul>
+                        </a></li>
+                        <li><a href="#">Submit News</a></li>
+                        <li><a href="./about.html" target="_blank">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="social-icons">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/bbcindia/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/BBCWorld" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bbcnews/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC16niRr50-MSBwiO3YDb3RA" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="News-submit">
+        <form>
+            <h1>Submit News</h1>
+            <div class="container">
+                <label>Name<span class="mandatory">*</span></label>
+                <br>
+                <input type="text" placeholder="Enter your name" required>
+                <br><br>
+                <label>Surname<span class="mandatory">*</span></label>
+                <br>
+                <input type="text" placeholder="Enter your surname" required>
+                <br><br>
+                <label>Mobile No<span class="mandatory">*</span></label>
+                <br>
+                <input type="tel" id="mobileNumber" name="mobileNumber" pattern="[0-9]{10}" maxlength="10" placeholder="Enter your mobile number" required>
+                <br><br>
+                <label>E-mail<span class="mandatory">*</span></label>
+                <br>
+                <input type="email" placeholder="xyz@gmail.com" required>
+                <br><br>
+                <h3>Type of News:<span class="mandatory">*</span></h3> 
+                <br>
+                <input type="radio" id="id1" name="Type of News" value="" required>
+                <label for="id1">Business</label>
+                <br>
+                <input type="radio" id="id1" name="Type of News" value="" required>
+                <label for="id1">Sports</label>
+                <br>
+                <input type="radio" id="id1" name="Type of News" value="" required>
+                <label for="id1">Technology</label>
+                <br>
+                <input type="radio" id="id1" name="Type of News" value=""  required>
+                <label for="id1">Entertainment</label>
+                <br><br>
+                <h3>News:<span class="mandatory">*</span></h3>
+                <textarea rows="15" cols="200" placeholder="Enter the News" required></textarea>
+                <br><br>
+                <label>Upload Images<span class="mandatory">*</span></label>
+                <input type="file" required>
+                <br><br>
+                <input type="Submit">
+                <input type="reset">
+        </div>
+        </form>
+        
+        </div>
+        <footer>
+            <div class = "footer-container">
+                <div class = "footer-left">
+                    <h2>TECHNEWS</h2>
+                    <p>Stay informed with our timely news coverage and thought-provoking articles. Your source for reliable, up-to-date information on a wide range of topics.</p>
+                </div>
+    
+                <div class = "footer-right">
+                    <h2>Newletter</h2>
+                    <p>Join our community and never miss out on the latest news and thought-provoking content!</p>
+    
+                    <div>
+                        <input type = "text" placeholder = "Email Address">
+                        <a href="#"><i class = "fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <p>Copyright &copy; 2023 All rights reserved</p>
+        </footer>
+    
+</body>
+</html>

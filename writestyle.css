@@ -1,0 +1,91 @@
+.News-submit {
+    /* max-width: 800px; */
+    margin: 5px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.News-submit h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.News-submit label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.News-submit textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.News-submit input[type="text"],
+.News-submit input[type="number"],
+.News-submit input[type="tel"],
+.News-submit input[type="email"]{
+    width: calc(20% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.News-submit input[type="file"]{
+    width: calc(25% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.News-submit input[type="radio"] {
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.News-submit input[type="submit"],
+.News-submit input[type="reset"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #252525;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.News-submit input[type="submit"]{
+    margin-left: 40%;
+}
+.News-submit input[type="reset"]{
+    margin-left: 30px;
+}
+
+.News-submit input[type="submit"]:hover,
+.News-submit input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+.mandatory {
+    color: red;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
